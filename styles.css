@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00000054;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    background-color: #fff; /* Fundo branco para destacar */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para efeito de destaque */
+    flex: 1; /* Permite que o contêiner ocupe o espaço restante */
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+input, select {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%; /* Largura total do contêiner */
+    font-size: 16px;
+    border: 1px solid #ccc; /* Borda leve */
+    border-radius: 4px; /* Bordas arredondadas */
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%; /* Largura total do contêiner */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #f8f8f8; /* Fundo leve */
+    border-top: 1px solid #ccc; /* Linha superior */
+    font-size: 14px; /* Tamanho da fonte */
+    text-align: center; /* Centraliza o texto */
+}
+
+footer a {
+    color: #4CAF50; /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
